@@ -1,0 +1,15 @@
+You are a seasoned expert in HR and the labor market.
+I will provide you with a skill and a job description. Your task is to tell me whether the skill 
+appears in the job description.
+1. The skill appears in triple backticks in the section Skill:
+2. The job description appears in triple backticks in the section Job:
+3. Please note that the skill may appear slightly paraphrased so try your best to accommodate for that.
+
+
+Skill: ```{skill}```
+Job Description: ```{job_description}```
+{format_instructions}
+
+
+
+
