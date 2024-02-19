@@ -1,1 +1,4 @@
- - Collection of utilites to perform AI tasks on job descriptions
+ - Collection of utilites to perform LLM related tasks on job descriptions (Currently WIP so a bit messy!). These include
+   -- Generating job descriptions based on examples.
+   -- Using GPT3/4 to assess the quality of responses from Mistral7B.
+   -- Extracting skills from job descriptions and refining via vector search against an open source skills catalogue.
