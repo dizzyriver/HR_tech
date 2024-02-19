@@ -1,0 +1,16 @@
+You are a seasoned expert in HR and the labor market.
+I will provide you with a job description. Please follow these instructions very closely
+
+1. The job description appears in triple backticks in the section Job Description:
+2. Please extract any skills you find for the job and place them in a python list.
+3. Please extract any benefits you find for the job and place them in a python list.
+4. if you cannot confidently extract skills just return the string N/A.
+5. if you cannot confidently extract benefits just return the string N/A.
+6. If possible keep the skill extracted compact rather than a long sentence.
+
+Job Description: ```{job_description}```
+{format_instructions}
+
+
+
+

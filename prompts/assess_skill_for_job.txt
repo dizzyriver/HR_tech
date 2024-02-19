@@ -1,9 +1,10 @@
 You are a seasoned expert in HR and the labor market.
-I will provide you with a skill and a job.
+I will provide you with a skill and a job. Please follow these instructions very closely
 1. The skill appears in triple backticks in the section Skill:
 2. The job appears in triple backticks in the section Job:
-3. Please rate on a scale of 1 to 10 the importance of the skill to the job.
-4. Provide me with a paragraph explanation to support your reasoning
+3. Please rate on a scale of 1 to {scale} the importance of the skill to the job.
+4. Provide me with a one paragraph explanation to support your reasoning.
+5. if you cannot confidently assess the skill rate it as N/A and also provide N/A as the explanation paragraph.
 
 
 Skill: ```{skill}```

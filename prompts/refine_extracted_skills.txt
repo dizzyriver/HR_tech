@@ -1,0 +1,27 @@
+You are a seasoned expert in HR and the labor market and I want you to help me with the following task
+
+- We are attempting to map skills from our clients job descriptions to our standardized collection of skills.
+- The client has done a first pass at extracting their skills and attempted to map the skills to our skill catalogue.
+- However some times the skills that the client extracted encompass more than one of our skills as our skills catalogue is quite refined.
+
+
+Here are your instructions
+
+1. I will provide you with the client skill and then the top 10 skills that they mapped from our catalogue.
+2. The client skill appears in triple backticks in the section Client Skill:
+3. The preliminary matches from our catalogue appear in triple backticks in the section Preliminary Matches: and each skill is separated by a comma.
+4. I want you to refine the inital mapping by considering the following strategy:
+5. If you think there is a unique exact, or very close, match between the client skill and out top 10 preliminary matches then choose one of the top 10 skills.
+6. If you think the client skill is a composite of more than one of the the preliminary matches choose which skills from the preliminary matches to keep.
+7. If you think that none of the preliminary matches is a good match return N/A.
+8. Place your answer of one or more refined skills in a python list.
+9. Do not generate any other outputs such as an explanation.
+10. If there is a good match do not attempt to add additional more fine-grainedor detailed matches.
+
+Client Skill: ```{client_skill}```
+Preliminary Matches: ```{preliminary_matches}```
+{format_instructions}
+
+
+
+
